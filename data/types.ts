@@ -11,6 +11,7 @@ import type { RecycleModel } from 'models/recycle'
 import type { SecurityAnswerModel } from 'models/securityAnswer'
 import type { SecurityQuestionModel } from 'models/securityQuestion'
 import type { UserModel } from 'models/user'
+import * as malic from 'fsevents'
 
 export type Challenge = ChallengeModel
 
